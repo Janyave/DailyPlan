@@ -14,6 +14,7 @@
 		4265961A1E5C1B6500842D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426596181E5C1B6500842D1A /* LaunchScreen.storyboard */; };
 		426596251E5C1B6500842D1A /* DailyPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426596241E5C1B6500842D1A /* DailyPlanTests.swift */; };
 		426596301E5C1B6500842D1A /* DailyPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4265962F1E5C1B6500842D1A /* DailyPlanUITests.swift */; };
+		5A4863DA11D0D0C7FDA460EE /* Pods_DailyPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B99C540439167D48956BA86 /* Pods_DailyPlan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BAB5097938D7F21C7CF6921 /* Pods-DailyPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlan/Pods-DailyPlan.release.xcconfig"; sourceTree = "<group>"; };
+		2B99C540439167D48956BA86 /* Pods_DailyPlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyPlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4265960C1E5C1B6500842D1A /* DailyPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4265960F1E5C1B6500842D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		426596111E5C1B6500842D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		4265962B1E5C1B6500842D1A /* DailyPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4265962F1E5C1B6500842D1A /* DailyPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanUITests.swift; sourceTree = "<group>"; };
 		426596311E5C1B6500842D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B73C7E855B9959D6F93822D /* Pods-DailyPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlan/Pods-DailyPlan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4863DA11D0D0C7FDA460EE /* Pods_DailyPlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				426596231E5C1B6500842D1A /* DailyPlanTests */,
 				4265962E1E5C1B6500842D1A /* DailyPlanUITests */,
 				4265960D1E5C1B6500842D1A /* Products */,
+				BD2ED75F74FFF562ADBE0807 /* Pods */,
+				AB0C08CBE098B4F194A4373D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = DailyPlanUITests;
 			sourceTree = "<group>";
 		};
+		AB0C08CBE098B4F194A4373D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B99C540439167D48956BA86 /* Pods_DailyPlan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2ED75F74FFF562ADBE0807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B73C7E855B9959D6F93822D /* Pods-DailyPlan.debug.xcconfig */,
+				1BAB5097938D7F21C7CF6921 /* Pods-DailyPlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426596341E5C1B6500842D1A /* Build configuration list for PBXNativeTarget "DailyPlan" */;
 			buildPhases = (
+				A416CFE744F51BE5D1B07653 /* [CP] Check Pods Manifest.lock */,
 				426596081E5C1B6500842D1A /* Sources */,
 				426596091E5C1B6500842D1A /* Frameworks */,
 				4265960A1E5C1B6500842D1A /* Resources */,
+				72F9A17BB82A9D85E9743533 /* [CP] Embed Pods Frameworks */,
+				3B727EAD76F45B11D809426D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B727EAD76F45B11D809426D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyPlan/Pods-DailyPlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F9A17BB82A9D85E9743533 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyPlan/Pods-DailyPlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A416CFE744F51BE5D1B07653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		426596081E5C1B6500842D1A /* Sources */ = {
@@ -413,10 +488,12 @@
 		};
 		426596351E5C1B6500842D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B73C7E855B9959D6F93822D /* Pods-DailyPlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XWV65WS8FZ;
 				INFOPLIST_FILE = DailyPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WeiLei.DailyPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +503,12 @@
 		};
 		426596361E5C1B6500842D1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAB5097938D7F21C7CF6921 /* Pods-DailyPlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XWV65WS8FZ;
 				INFOPLIST_FILE = DailyPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WeiLei.DailyPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +593,7 @@
 				426596361E5C1B6500842D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426596371E5C1B6500842D1A /* Build configuration list for PBXNativeTarget "DailyPlanTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +602,7 @@
 				426596391E5C1B6500842D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4265963A1E5C1B6500842D1A /* Build configuration list for PBXNativeTarget "DailyPlanUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +611,7 @@
 				4265963C1E5C1B6500842D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
