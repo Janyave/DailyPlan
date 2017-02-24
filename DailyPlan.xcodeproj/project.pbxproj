@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42392D161E6030B50006DC2E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42392D141E6030B50006DC2E /* LoginViewController.swift */; };
+		42392D171E6030B50006DC2E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42392D151E6030B50006DC2E /* LoginViewController.xib */; };
+		42392D1A1E6030C80006DC2E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42392D181E6030C80006DC2E /* RegisterViewController.swift */; };
+		42392D1B1E6030C80006DC2E /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42392D191E6030C80006DC2E /* RegisterViewController.xib */; };
+		42392D1F1E6030DE0006DC2E /* ForgotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42392D1D1E6030DE0006DC2E /* ForgotPwdViewController.swift */; };
+		42392D201E6030DE0006DC2E /* ForgotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42392D1E1E6030DE0006DC2E /* ForgotPwdViewController.xib */; };
 		424B39C51E5D2FE000C16882 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B39C41E5D2FE000C16882 /* MainTabBarController.swift */; };
 		424B39C71E5D30EA00C16882 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B39C61E5D30EA00C16882 /* CustomNavigationController.swift */; };
 		424B39CB1E5D328C00C16882 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B39C91E5D328C00C16882 /* PlanViewController.swift */; };
@@ -42,6 +48,12 @@
 /* Begin PBXFileReference section */
 		1BAB5097938D7F21C7CF6921 /* Pods-DailyPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlan/Pods-DailyPlan.release.xcconfig"; sourceTree = "<group>"; };
 		2B99C540439167D48956BA86 /* Pods_DailyPlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyPlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42392D141E6030B50006DC2E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42392D151E6030B50006DC2E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		42392D181E6030C80006DC2E /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		42392D191E6030C80006DC2E /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		42392D1D1E6030DE0006DC2E /* ForgotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPwdViewController.swift; sourceTree = "<group>"; };
+		42392D1E1E6030DE0006DC2E /* ForgotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPwdViewController.xib; sourceTree = "<group>"; };
 		424B39C41E5D2FE000C16882 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		424B39C61E5D30EA00C16882 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		424B39C91E5D328C00C16882 /* PlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +101,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42392D0F1E602C0C0006DC2E /* login */ = {
+			isa = PBXGroup;
+			children = (
+				42392D141E6030B50006DC2E /* LoginViewController.swift */,
+				42392D151E6030B50006DC2E /* LoginViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		42392D101E602C140006DC2E /* register */ = {
+			isa = PBXGroup;
+			children = (
+				42392D181E6030C80006DC2E /* RegisterViewController.swift */,
+				42392D191E6030C80006DC2E /* RegisterViewController.xib */,
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		42392D111E602C410006DC2E /* forgotPWD */ = {
+			isa = PBXGroup;
+			children = (
+				42392D1D1E6030DE0006DC2E /* ForgotPwdViewController.swift */,
+				42392D1E1E6030DE0006DC2E /* ForgotPwdViewController.xib */,
+			);
+			name = forgotPWD;
+			sourceTree = "<group>";
+		};
 		426596031E5C1B6500842D1A = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +153,7 @@
 		4265960E1E5C1B6500842D1A /* DailyPlan */ = {
 			isa = PBXGroup;
 			children = (
-				426596431E5C403D00842D1A /* login */,
+				426596431E5C403D00842D1A /* account */,
 				4265963D1E5C3F8B00842D1A /* plan */,
 				4265963F1E5C3FF900842D1A /* ranklist */,
 				426596401E5C400600842D1A /* circle */,
@@ -180,11 +219,14 @@
 			name = user;
 			sourceTree = "<group>";
 		};
-		426596431E5C403D00842D1A /* login */ = {
+		426596431E5C403D00842D1A /* account */ = {
 			isa = PBXGroup;
 			children = (
+				42392D111E602C410006DC2E /* forgotPWD */,
+				42392D101E602C140006DC2E /* register */,
+				42392D0F1E602C0C0006DC2E /* login */,
 			);
-			name = login;
+			name = account;
 			sourceTree = "<group>";
 		};
 		AB0C08CBE098B4F194A4373D /* Frameworks */ = {
@@ -317,9 +359,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42392D171E6030B50006DC2E /* LoginViewController.xib in Resources */,
+				42392D1B1E6030C80006DC2E /* RegisterViewController.xib in Resources */,
 				4265961A1E5C1B6500842D1A /* LaunchScreen.storyboard in Resources */,
 				426596171E5C1B6500842D1A /* Assets.xcassets in Resources */,
 				426596151E5C1B6500842D1A /* Main.storyboard in Resources */,
+				42392D201E6030DE0006DC2E /* ForgotPwdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +437,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42392D1A1E6030C80006DC2E /* RegisterViewController.swift in Sources */,
+				42392D1F1E6030DE0006DC2E /* ForgotPwdViewController.swift in Sources */,
 				424B39D21E5D32D600C16882 /* UserViewController.swift in Sources */,
 				424B39C71E5D30EA00C16882 /* CustomNavigationController.swift in Sources */,
 				424B39CE1E5D32B400C16882 /* RanklistViewController.swift in Sources */,
 				424B39D01E5D32C600C16882 /* CircleViewController.swift in Sources */,
+				42392D161E6030B50006DC2E /* LoginViewController.swift in Sources */,
 				424B39CB1E5D328C00C16882 /* PlanViewController.swift in Sources */,
 				424B39C51E5D2FE000C16882 /* MainTabBarController.swift in Sources */,
 				426596101E5C1B6500842D1A /* AppDelegate.swift in Sources */,
